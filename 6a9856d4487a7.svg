@@ -1,0 +1,68 @@
+<svg viewBox="0 0 1600 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0d12"/>
+      <stop offset="100%" stop-color="#131722"/>
+    </linearGradient>
+    <linearGradient id="flagGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1554d6"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="metalGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="60%" stop-color="#d7dbe0"/>
+      <stop offset="100%" stop-color="#b8bec7"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1554d6" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#1554d6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1600" height="500" fill="url(#bgGrad)"/>
+  <circle cx="1320" cy="120" r="260" fill="url(#glow)"/>
+  <circle cx="140" cy="430" r="220" fill="url(#glow)"/>
+
+  <!-- thin category icon row (neutral, not tech-specific) -->
+  <g stroke="#2a3040" stroke-width="1.5" opacity="0.6">
+    <line x1="0" y1="460" x2="1600" y2="460"/>
+  </g>
+
+  <!-- Icon badge -->
+  <g transform="translate(90,130)">
+    <circle cx="120" cy="120" r="120" fill="#050505" stroke="#1554d6" stroke-width="3"/>
+    <path d="M 70 120 A 48 58 0 1 0 158 120 A 48 58 0 1 0 70 120 Z M 92 120 A 26 36 0 1 1 136 120 A 26 36 0 1 1 92 120 Z"
+          fill="url(#metalGrad2)" transform="translate(10,0)"/>
+    <path d="M148 92 C148 71 165 57 186 57 C202 57 214 65 221 77 L204 89 C199 81 193 76 186 76 C174 76 167 84 167 97
+             L167 140 C167 153 175 161 188 161 C197 161 204 156 207 147 L186 147 L186 128 L226 128 L226 166
+             C217 180 203 180 188 180 C165 180 148 164 148 140 Z" fill="url(#metalGrad2)" transform="translate(10,0)"/>
+    <path d="M186 74 L238 74 L218 104 L166 104 Z" fill="url(#flagGrad2)" transform="translate(10,0)"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="420" y="250" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="88" letter-spacing="5">
+    <tspan fill="#ffffff">OG</tspan><tspan fill="#4a86ff">_</tspan><tspan fill="#ffffff">GADGETS</tspan>
+  </text>
+
+  <line x1="420" y1="285" x2="700" y2="285" stroke="#1554d6" stroke-width="2"/>
+  <g transform="translate(720,258)">
+    <path d="M0 0 L10 0 L18 34 L58 34 L66 10 L18 10" fill="none" stroke="#1554d6" stroke-width="3.5" stroke-linejoin="round"/>
+    <circle cx="26" cy="44" r="5" fill="#1554d6"/>
+    <circle cx="50" cy="44" r="5" fill="#1554d6"/>
+  </g>
+  <line x1="800" y1="285" x2="1180" y2="285" stroke="#1554d6" stroke-width="2"/>
+
+  <text x="420" y="335" font-family="Arial, Helvetica, sans-serif" font-size="28" letter-spacing="2" fill="#9aa3b2">
+    Quality Products, Every Category, One Store
+  </text>
+
+  <rect x="420" y="375" width="230" height="60" rx="30" fill="#1554d6"/>
+  <text x="535" y="413" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="26" fill="#ffffff" text-anchor="middle">
+    SHOP NOW
+  </text>
+
+  <rect x="680" y="375" width="230" height="60" rx="30" fill="none" stroke="#4a86ff" stroke-width="2"/>
+  <text x="795" y="413" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="24" fill="#ffffff" text-anchor="middle">
+    EXPLORE ALL
+  </text>
+</svg>
